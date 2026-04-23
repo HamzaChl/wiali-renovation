@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #1c365b;
+  --brand-dark: #0f1c2e;
+  --brand-light: #2a4f82;
+  --gold: #ee721a;
+  --bg: #f8f8f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', system-ui, sans-serif;
+  background-color: var(--bg);
+  color: #1a1a2a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .label {
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#ee721a];
+  }
+
+  .btn-dark {
+    @apply inline-flex items-center gap-2.5 bg-[#0f1c2e] text-white px-7 py-3.5 text-sm font-semibold tracking-wide rounded-lg transition-all duration-200 hover:bg-[#1c365b] active:scale-[0.98];
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center gap-2.5 bg-[#ee721a] text-[#0f1c2e] px-7 py-3.5 text-sm font-semibold tracking-wide rounded-lg transition-all duration-200 hover:bg-[#ff9040] active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2.5 border border-white/30 text-white px-7 py-3.5 text-sm font-semibold tracking-wide rounded-lg transition-all duration-200 hover:bg-white/10 hover:border-white/60 active:scale-[0.98];
+  }
+
+  .btn-glass {
+    @apply inline-flex items-center gap-2.5 bg-white/10 backdrop-blur-md border border-white/25 text-white px-7 py-3.5 text-sm font-semibold tracking-wide rounded-lg transition-all duration-200 hover:bg-white/20 hover:border-white/40 shadow-lg shadow-black/10 active:scale-[0.98];
+  }
+
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-md border border-white/15 shadow-xl shadow-black/20 rounded-xl;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2.5 border border-[#1c365b] text-[#1c365b] px-7 py-3.5 text-sm font-semibold tracking-wide rounded-lg transition-all duration-200 hover:bg-[#1c365b] hover:text-white active:scale-[0.98];
+  }
+}

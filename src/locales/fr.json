@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "gallery": "Galerie",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Artisans de confiance depuis 2010",
+    "title": "Votre espace,",
+    "titleAccent": "réinventé.",
+    "subtitle": "Des solutions sur mesure pour des espaces modernes et fonctionnels. Menuiserie, peinture, plomberie et bien plus — réalisés par des experts passionnés.",
+    "cta": "Demander un devis",
+    "ctaSecondary": "Découvrir nos services"
+  },
+  "servicesPreview": {
+    "badge": "Ce que nous faisons",
+    "title": "Nos expertises",
+    "subtitle": "De la rénovation complète aux interventions ciblées, nous couvrons tous les corps de métier du bâtiment.",
+    "viewAll": "Voir tous les services"
+  },
+  "services": {
+    "renovation": {
+      "title": "Rénovation de bâtiments",
+      "desc": "Transformation complète de vos espaces résidentiels et commerciaux, de la conception à la finition."
+    },
+    "menuiserie": {
+      "title": "Menuiserie",
+      "desc": "Fabrication et pose de menuiseries intérieures et extérieures sur mesure, portes, fenêtres et aménagements."
+    },
+    "peinture": {
+      "title": "Peinture",
+      "desc": "Application de revêtements muraux, peintures décoratives et enduits pour sublimer vos intérieurs."
+    },
+    "plafonds": {
+      "title": "Plafonds",
+      "desc": "Pose de faux-plafonds, plafonds tendus et dalles décoratives pour un rendu soigné."
+    },
+    "plomberie": {
+      "title": "Plomberie",
+      "desc": "Installation, réparation et entretien de tous vos équipements sanitaires et réseaux d'eau."
+    },
+    "carrelage": {
+      "title": "Carrelage",
+      "desc": "Pose de carrelage sol et mural, faïence et mosaïque pour salles de bain, cuisines et espaces communs."
+    },
+    "debouchage": {
+      "title": "Débouchage",
+      "desc": "Intervention rapide pour le débouchage de canalisations, éviers, toilettes et réseaux d'assainissement."
+    },
+    "electricite": {
+      "title": "Électricité",
+      "desc": "Mise aux normes, installation de tableaux électriques, câblage et éclairage intérieur et extérieur."
+    }
+  },
+  "why": {
+    "badge": "Pourquoi nous choisir",
+    "title": "L'excellence à chaque étape",
+    "subtitle": "Nous mettons notre expertise au service de vos projets avec rigueur et transparence.",
+    "points": {
+      "quality": {
+        "title": "Qualité garantie",
+        "desc": "Chaque intervention est réalisée avec les matériaux les plus adaptés et les techniques les plus performantes."
+      },
+      "expertise": {
+        "title": "Expertise reconnue",
+        "desc": "Plus de 10 ans d'expérience dans la rénovation et l'aménagement de bâtiments en France."
+      },
+      "devis": {
+        "title": "Devis gratuit & rapide",
+        "desc": "Obtenez une estimation claire et détaillée de votre projet sous 48 heures, sans engagement."
+      }
+    }
+  },
+  "ctaBanner": {
+    "title": "Prêt à transformer votre espace ?",
+    "subtitle": "Contactez-nous dès aujourd'hui pour un devis gratuit et personnalisé.",
+    "cta": "Nous contacter"
+  },
+  "about": {
+    "badge": "Notre histoire",
+    "heroTitle": "À propos de Wiali",
+    "heroSubtitle": "Une entreprise fondée sur la passion du travail bien fait.",
+    "storyTitle": "Qui sommes-nous ?",
+    "story1": "Wiali Rénovation est une entreprise spécialisée dans la rénovation de bâtiments, créée pour répondre aux besoins croissants d'une clientèle exigeante en quête de qualité et de fiabilité.",
+    "story2": "Forts d'une équipe de professionnels qualifiés et expérimentés, nous intervenons sur tous types de travaux : menuiserie, peinture, plafonds, plomberie, carrelage, débouchage et électricité.",
+    "story3": "Notre approche repose sur l'écoute, la transparence et l'engagement envers chaque client — du premier contact jusqu'à la livraison finale.",
+    "valuesTitle": "Nos valeurs",
+    "values": {
+      "trust": {
+        "title": "Confiance",
+        "desc": "Nous construisons des relations durables basées sur l'honnêteté et la transparence."
+      },
+      "precision": {
+        "title": "Précision",
+        "desc": "Chaque détail compte. Nous travaillons avec rigueur pour un résultat à la hauteur de vos attentes."
+      },
+      "respect": {
+        "title": "Respect",
+        "desc": "Respect des délais, des budgets et des lieux de vie de nos clients."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Nous adoptons les techniques modernes pour vous proposer les meilleures solutions."
+      }
+    }
+  },
+  "servicesPage": {
+    "badge": "Ce que nous proposons",
+    "heroTitle": "Nos services",
+    "heroSubtitle": "Une gamme complète de prestations pour tous vos projets de rénovation.",
+    "tagline": "Des solutions sur mesure pour des espaces modernes et fonctionnels."
+  },
+  "contact": {
+    "badge": "Parlons de votre projet",
+    "heroTitle": "Contactez-nous",
+    "heroSubtitle": "Décrivez-nous votre projet et recevez un devis gratuit sous 48h.",
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Jean Dupont",
+      "email": "Adresse email",
+      "emailPlaceholder": "jean@exemple.fr",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+33 6 00 00 00 00",
+      "service": "Service concerné",
+      "servicePlaceholder": "Sélectionner un service",
+      "message": "Votre message",
+      "messagePlaceholder": "Décrivez votre projet, vos besoins, vos questions...",
+      "submit": "Envoyer ma demande",
+      "submitting": "Envoi en cours..."
+    },
+    "info": {
+      "title": "Nos coordonnées",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hours": "Horaires",
+      "hoursValue": "Lun – Sam : 8h00 – 18h00",
+      "address": "Adresse",
+      "addressValue": "France"
+    }
+  },
+  "footer": {
+    "tagline": "Des solutions sur mesure pour des espaces modernes et fonctionnels.",
+    "nav": "Navigation",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "© {{year}} Wiali Rénovation. Tous droits réservés.",
+    "legal": "Mentions légales"
+  }
+}
