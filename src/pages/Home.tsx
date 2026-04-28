@@ -1,6 +1,6 @@
 import heroBg from '../assets/images/home.jpg'
 import imgRenovation from '../assets/images/services/renovation-batiment.jpg'
-import imgMenuiserie from '../assets/images/services/Menuiserie.jpg'
+import imgMenuiserie from '../assets/images/services/menuiserie.jpg'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, type Variants, type Transition } from 'framer-motion'
