@@ -1,4 +1,6 @@
 import heroBg from '../assets/images/home.jpg'
+import imgRenovation from '../assets/images/services/renovation-batiment.jpg'
+import imgMenuiserie from '../assets/images/services/Menuiserie.jpg'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, type Variants, type Transition } from 'framer-motion'
@@ -14,18 +16,12 @@ const fadeUp: Variants = { hidden: { opacity: 0, y: 32 }, show: { opacity: 1, y:
 const fadeIn: Variants = { hidden: { opacity: 0 }, show: { opacity: 1, transition: { duration: 1 } } }
 
 const featuredServices = [
-  {
-    key: 'renovation', Icon: Buildings, badge: 'Rénovation',
-    img: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=900',
-  },
+  { key: 'renovation', Icon: Buildings, badge: 'Rénovation', img: imgRenovation },
   {
     key: 'peinture', Icon: PaintBrush, badge: 'Peinture & Décoration',
     img: 'https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&w=900',
   },
-  {
-    key: 'menuiserie', Icon: Hammer, badge: 'Menuiserie',
-    img: 'https://images.pexels.com/photos/3637786/pexels-photo-3637786.jpeg?auto=compress&cs=tinysrgb&w=900',
-  },
+  { key: 'menuiserie', Icon: Hammer, badge: 'Menuiserie', img: imgMenuiserie },
 ]
 
 const whyPoints = [

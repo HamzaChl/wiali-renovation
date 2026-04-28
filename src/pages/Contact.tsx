@@ -158,8 +158,8 @@ export default function Contact() {
               </motion.h2>
 
               {[
-                { Icon: Phone, label: t('contact.info.phone'), value: '+33 6 00 00 00 00', href: 'tel:+33600000000' },
-                { Icon: EnvelopeSimple, label: t('contact.info.email'), value: 'contact@wiali-renovation.fr', href: 'mailto:contact@wiali-renovation.fr' },
+                { Icon: Phone, label: t('contact.info.phone'), value: '+32 487 89 45 51', href: 'tel:+32487894551' },
+                { Icon: EnvelopeSimple, label: t('contact.info.email'), value: 'aliboumazaak6@gmail.com', href: 'mailto:aliboumazaak6@gmail.com' },
                 { Icon: Clock, label: t('contact.info.hours'), value: t('contact.info.hoursValue'), href: null },
                 { Icon: MapPin, label: t('contact.info.address'), value: t('contact.info.addressValue'), href: null },
               ].map(({ Icon, label, value, href }) => (

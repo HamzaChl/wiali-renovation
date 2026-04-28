@@ -5,6 +5,12 @@ import {
   Buildings, Hammer, PaintBrushHousehold, GridFour,
   PipeWrench, SquaresFour, Drop, Flashlight, ArrowRight
 } from '@phosphor-icons/react'
+import imgRenovation from '../assets/images/services/renovation-batiment.jpg'
+import imgMenuiserie from '../assets/images/services/menuiserie.jpg'
+import imgPlafond from '../assets/images/services/plafond.jpg'
+import imgPlomberie from '../assets/images/services/plomberie.jpg'
+import imgCarrelage from '../assets/images/services/carrelage.jpg'
+import imgDebouchage from '../assets/images/services/debouchage.jpg'
 
 const ease: Transition = { duration: 0.6, ease: 'easeOut' }
 const stagger: Variants = { hidden: {}, show: { transition: { staggerChildren: 0.08 } } }
@@ -12,13 +18,13 @@ const fadeUp: Variants = { hidden: { opacity: 0, y: 32 }, show: { opacity: 1, y:
 const fadeIn: Variants = { hidden: { opacity: 0 }, show: { opacity: 1, transition: { duration: 1 } } }
 
 const services = [
-  { key: 'renovation', Icon: Buildings, img: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { key: 'menuiserie', Icon: Hammer, img: 'https://images.pexels.com/photos/3637786/pexels-photo-3637786.jpeg?auto=compress&cs=tinysrgb&w=800' },
+  { key: 'renovation', Icon: Buildings, img: imgRenovation },
+  { key: 'menuiserie', Icon: Hammer, img: imgMenuiserie },
   { key: 'peinture', Icon: PaintBrushHousehold, img: 'https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { key: 'plafonds', Icon: GridFour, img: 'https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { key: 'plomberie', Icon: PipeWrench, img: 'https://images.pexels.com/photos/2310904/pexels-photo-2310904.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { key: 'carrelage', Icon: SquaresFour, img: 'https://images.pexels.com/photos/4753928/pexels-photo-4753928.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { key: 'debouchage', Icon: Drop, img: 'https://images.pexels.com/photos/1458457/pexels-photo-1458457.jpeg?auto=compress&cs=tinysrgb&w=800' },
+  { key: 'plafonds', Icon: GridFour, img: imgPlafond },
+  { key: 'plomberie', Icon: PipeWrench, img: imgPlomberie },
+  { key: 'carrelage', Icon: SquaresFour, img: imgCarrelage },
+  { key: 'debouchage', Icon: Drop, img: imgDebouchage },
   { key: 'electricite', Icon: Flashlight, img: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=800' },
 ]
 

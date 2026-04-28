@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Phone, EnvelopeSimple, Clock, MapPin, ArrowUpRight } from '@phosphor-icons/react'
 import logo from '../assets/images/logo.png'
@@ -11,6 +11,11 @@ const navLinks = [
   { to: '/contact', key: 'nav.contact' },
 ]
 
+const legalLinks = [
+  { to: '/mentions-legales', label: 'Mentions légales' },
+  { to: '/confidentialite', label: 'Politique de confidentialité' },
+]
+
 export default function Footer() {
   const { t } = useTranslation()
   const year = new Date().getFullYear()
@@ -19,7 +24,7 @@ export default function Footer() {
     <footer className="bg-[#0f1c2e]">
       <div className="px-[50px] pt-16 pb-8">
         {/* Top grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pb-12 border-b border-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pb-12 border-b border-white/10">
           {/* Brand */}
           <div>
             <img src={logo} alt="Wiali Rénovation" className="h-10 w-auto brightness-0 invert mb-5" />
@@ -28,10 +33,10 @@ export default function Footer() {
             </p>
             <div className="space-y-3">
               {[
-                { Icon: Phone, val: '+33 6 00 00 00 00', href: 'tel:+33600000000' },
-                { Icon: EnvelopeSimple, val: 'contact@wiali-renovation.fr', href: 'mailto:contact@wiali-renovation.fr' },
+                { Icon: Phone, val: '+32 487 89 45 51', href: 'tel:+32487894551' },
+                { Icon: EnvelopeSimple, val: 'aliboumazaak6@gmail.com', href: 'mailto:aliboumazaak6@gmail.com' },
                 { Icon: Clock, val: 'Lun – Sam : 8h – 18h', href: null },
-                { Icon: MapPin, val: 'France', href: null },
+                { Icon: MapPin, val: 'Rue des Bons Enfants 19, 1120 Bruxelles', href: null },
               ].map(({ Icon, val, href }) => (
                 <div key={val} className="flex items-center gap-2.5 text-xs text-white/40">
                   <Icon size={13} weight="bold" />
@@ -59,6 +64,26 @@ export default function Footer() {
                     <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                     {t(key)}
                   </NavLink>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#ee721a] mb-5">
+              Légal
+            </p>
+            <ul className="space-y-3">
+              {legalLinks.map(({ to, label }) => (
+                <li key={to}>
+                  <Link
+                    to={to}
+                    className="text-sm text-white/50 hover:text-white transition-colors flex items-center gap-1.5 group"
+                  >
+                    <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                    {label}
+                  </Link>
                 </li>
               ))}
             </ul>
