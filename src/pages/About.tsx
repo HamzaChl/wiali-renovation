@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { motion, type Variants, type Transition } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Handshake, Target, Clock, Lightbulb, ArrowRight } from '@phosphor-icons/react'
+import imgRenovation from '../assets/images/services/renovation-batiment.jpg'
 
 const ease: Transition = { duration: 0.6, ease: 'easeOut' }
 const stagger: Variants = { hidden: {}, show: { transition: { staggerChildren: 0.12 } } }
@@ -62,7 +63,7 @@ export default function About() {
             >
               <div className="aspect-[4/5] overflow-hidden rounded-xl">
                 <img
-                  src="https://images.pexels.com/photos/2062427/pexels-photo-2062427.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  src={imgRenovation}
                   alt="Réalisation Wiali"
                   className="w-full h-full object-cover"
                 />

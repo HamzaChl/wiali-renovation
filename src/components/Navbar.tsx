@@ -70,7 +70,7 @@ export default function Navbar() {
             </ul>
 
             <Link
-              to="/contact"
+              to="/devis"
               className="inline-flex items-center gap-2 bg-[#1c365b] text-white px-5 py-2.5 text-xs font-semibold tracking-widest uppercase rounded-lg hover:bg-[#0f1c2e] transition-colors duration-200"
             >
               Devis gratuit

@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Certified craftsmen since 2010",
+    "title": "Your space,",
+    "titleAccent": "reinvented.",
+    "subtitle": "Tailored solutions for modern and functional spaces. Carpentry, painting, plumbing and more — delivered by passionate professionals.",
+    "cta": "Get a quote",
+    "ctaSecondary": "Discover our services"
+  },
+  "servicesPreview": {
+    "badge": "What we do",
+    "title": "Our expertise",
+    "subtitle": "From full renovations to targeted work, we cover every building trade.",
+    "viewAll": "View all services"
+  },
+  "services": {
+    "renovation": {
+      "title": "Building renovation",
+      "desc": "Complete transformation of your residential and commercial spaces, from design to finish."
+    },
+    "menuiserie": {
+      "title": "Carpentry",
+      "desc": "Custom fabrication and installation of interior and exterior joinery, doors, windows and fittings."
+    },
+    "peinture": {
+      "title": "Painting",
+      "desc": "Application of wall coverings, decorative paints and plaster to enhance your interiors."
+    },
+    "plafonds": {
+      "title": "Ceilings",
+      "desc": "Installation of suspended ceilings, stretch ceilings and decorative tiles for a refined finish."
+    },
+    "plomberie": {
+      "title": "Plumbing",
+      "desc": "Installation, repair and maintenance of all your sanitary equipment and water networks."
+    },
+    "carrelage": {
+      "title": "Tiling",
+      "desc": "Floor and wall tiling, faience and mosaic for bathrooms, kitchens and common areas."
+    },
+    "debouchage": {
+      "title": "Drain unblocking",
+      "desc": "Fast intervention to unblock pipes, sinks, toilets and drainage systems."
+    },
+    "electricite": {
+      "title": "Electrical work",
+      "desc": "Standards compliance, installation of electrical panels, wiring and indoor/outdoor lighting."
+    }
+  },
+  "why": {
+    "badge": "Why choose us",
+    "title": "Excellence at every step",
+    "subtitle": "We put our expertise at the service of your projects with rigour and transparency.",
+    "points": {
+      "quality": {
+        "title": "Guaranteed quality",
+        "desc": "Every intervention is carried out with the most suitable materials and most efficient techniques."
+      },
+      "expertise": {
+        "title": "Proven expertise",
+        "desc": "Over 10 years of experience in building renovation and fitting-out in Belgium."
+      },
+      "devis": {
+        "title": "Free & fast quote",
+        "desc": "Get a clear and detailed estimate of your project within 48 hours, with no commitment."
+      }
+    }
+  },
+  "ctaBanner": {
+    "title": "Ready to transform your space?",
+    "subtitle": "Contact us today for a free and personalised quote.",
+    "cta": "Contact us"
+  },
+  "about": {
+    "badge": "Our story",
+    "heroTitle": "About Wiali",
+    "heroSubtitle": "A company built on a passion for work done right.",
+    "storyTitle": "Who are we?",
+    "story1": "Wiali Rénovation is a company specialised in building renovation, created to meet the growing needs of demanding clients looking for quality and reliability.",
+    "story2": "With a team of qualified and experienced professionals, we handle all types of work: carpentry, painting, ceilings, plumbing, tiling, drain unblocking and electrical work.",
+    "story3": "Our approach is based on listening, transparency and commitment to every client — from the first contact through to final delivery.",
+    "valuesTitle": "Our values",
+    "values": {
+      "trust": {
+        "title": "Trust",
+        "desc": "We build lasting relationships based on honesty and transparency."
+      },
+      "precision": {
+        "title": "Precision",
+        "desc": "Every detail matters. We work with rigour to deliver results that meet your expectations."
+      },
+      "respect": {
+        "title": "Respect",
+        "desc": "Respect for deadlines, budgets and our clients' living spaces."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "desc": "We adopt modern techniques to offer you the best solutions."
+      }
+    }
+  },
+  "servicesPage": {
+    "badge": "What we offer",
+    "heroTitle": "Our services",
+    "heroSubtitle": "A complete range of services for all your renovation projects.",
+    "tagline": "Tailored solutions for modern and functional spaces."
+  },
+  "contact": {
+    "badge": "Let's talk about your project",
+    "heroTitle": "Contact us",
+    "heroSubtitle": "Describe your project and receive a free quote within 48h.",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "John Smith",
+      "email": "Email address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+32 4 00 00 00 00",
+      "service": "Service required",
+      "servicePlaceholder": "Select a service",
+      "message": "Your message",
+      "messagePlaceholder": "Describe your project, your needs, your questions...",
+      "submit": "Send my request",
+      "submitting": "Sending..."
+    },
+    "info": {
+      "title": "Our contact details",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Opening hours",
+      "hoursValue": "Mon – Sat: 8:00 – 18:00",
+      "address": "Address",
+      "addressValue": "Rue des Bons Enfants 19, 1120 Brussels"
+    }
+  },
+  "footer": {
+    "tagline": "Tailored solutions for modern and functional spaces.",
+    "nav": "Navigation",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "© {{year}} Wiali Rénovation. All rights reserved.",
+    "legal": "Legal notice"
+  }
+}

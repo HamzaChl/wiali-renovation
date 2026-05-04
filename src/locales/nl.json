@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "services": "Diensten",
+    "gallery": "Galerij",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Erkende vaklieden sinds 2010",
+    "title": "Uw ruimte,",
+    "titleAccent": "opnieuw uitgevonden.",
+    "subtitle": "Maatoplossingen voor moderne en functionele ruimtes. Schrijnwerk, schilderwerk, loodgieterij en meer — uitgevoerd door gepassioneerde experts.",
+    "cta": "Offerte aanvragen",
+    "ctaSecondary": "Onze diensten ontdekken"
+  },
+  "servicesPreview": {
+    "badge": "Wat wij doen",
+    "title": "Onze expertises",
+    "subtitle": "Van volledige renovatie tot gerichte ingrepen, wij dekken alle bouwberoepen.",
+    "viewAll": "Alle diensten bekijken"
+  },
+  "services": {
+    "renovation": {
+      "title": "Gebouwrenovatie",
+      "desc": "Volledige transformatie van uw residentiële en commerciële ruimtes, van ontwerp tot afwerking."
+    },
+    "menuiserie": {
+      "title": "Schrijnwerk",
+      "desc": "Fabricage en plaatsing van maatwerk binnen- en buitenschrijnwerk, deuren, ramen en inrichting."
+    },
+    "peinture": {
+      "title": "Schilderwerk",
+      "desc": "Aanbrengen van wandbekleding, decoratieve verven en pleisterwerk om uw interieur te verfraai."
+    },
+    "plafonds": {
+      "title": "Plafonds",
+      "desc": "Plaatsing van verlaagde plafonds, spangplafonds en decoratieve tegels voor een verzorgd resultaat."
+    },
+    "plomberie": {
+      "title": "Loodgieterij",
+      "desc": "Installatie, reparatie en onderhoud van al uw sanitaire uitrusting en waternetwerken."
+    },
+    "carrelage": {
+      "title": "Tegelwerk",
+      "desc": "Plaatsing van vloer- en wandtegels, faïence en mozaïek voor badkamers, keukens en gemeenschappelijke ruimtes."
+    },
+    "debouchage": {
+      "title": "Ontstopping",
+      "desc": "Snelle interventie voor het ontstoppen van leidingen, gootstenen, toiletten en afvoersystemen."
+    },
+    "electricite": {
+      "title": "Elektriciteit",
+      "desc": "Normalisering, installatie van schakelaars, bekabeling en binnen- en buitenverlichting."
+    }
+  },
+  "why": {
+    "badge": "Waarom ons kiezen",
+    "title": "Excellentie bij elke stap",
+    "subtitle": "Wij stellen onze expertise in dienst van uw projecten met nauwkeurigheid en transparantie.",
+    "points": {
+      "quality": {
+        "title": "Gegarandeerde kwaliteit",
+        "desc": "Elke interventie wordt uitgevoerd met de meest geschikte materialen en de meest efficiënte technieken."
+      },
+      "expertise": {
+        "title": "Erkende expertise",
+        "desc": "Meer dan 10 jaar ervaring in renovatie en verbouwing van gebouwen in België."
+      },
+      "devis": {
+        "title": "Gratis & snelle offerte",
+        "desc": "Ontvang binnen 48 uur een duidelijke en gedetailleerde schatting van uw project, zonder verplichting."
+      }
+    }
+  },
+  "ctaBanner": {
+    "title": "Klaar om uw ruimte te transformeren?",
+    "subtitle": "Neem vandaag contact met ons op voor een gratis en gepersonaliseerde offerte.",
+    "cta": "Neem contact op"
+  },
+  "about": {
+    "badge": "Ons verhaal",
+    "heroTitle": "Over Wiali",
+    "heroSubtitle": "Een bedrijf gebouwd op passie voor goed vakmanschap.",
+    "storyTitle": "Wie zijn wij?",
+    "story1": "Wiali Rénovation is een bedrijf gespecialiseerd in gebouwrenovatie, opgericht om te voldoen aan de groeiende behoeften van veeleisende klanten die kwaliteit en betrouwbaarheid zoeken.",
+    "story2": "Met een team van gekwalificeerde en ervaren professionals voeren wij alle soorten werkzaamheden uit: schrijnwerk, schilderwerk, plafonds, loodgieterij, tegelwerk, ontstopping en elektriciteit.",
+    "story3": "Onze aanpak is gebaseerd op luisteren, transparantie en betrokkenheid bij elke klant — van het eerste contact tot de uiteindelijke oplevering.",
+    "valuesTitle": "Onze waarden",
+    "values": {
+      "trust": {
+        "title": "Vertrouwen",
+        "desc": "Wij bouwen duurzame relaties op basis van eerlijkheid en transparantie."
+      },
+      "precision": {
+        "title": "Precisie",
+        "desc": "Elk detail telt. Wij werken nauwkeurig voor een resultaat dat aan uw verwachtingen voldoet."
+      },
+      "respect": {
+        "title": "Respect",
+        "desc": "Respect voor deadlines, budgetten en de leefomgeving van onze klanten."
+      },
+      "innovation": {
+        "title": "Innovatie",
+        "desc": "Wij passen moderne technieken toe om u de beste oplossingen te bieden."
+      }
+    }
+  },
+  "servicesPage": {
+    "badge": "Wat wij aanbieden",
+    "heroTitle": "Onze diensten",
+    "heroSubtitle": "Een volledig dienstenpakket voor al uw renovatieprojecten.",
+    "tagline": "Maatoplossingen voor moderne en functionele ruimtes."
+  },
+  "contact": {
+    "badge": "Laten we over uw project praten",
+    "heroTitle": "Contacteer ons",
+    "heroSubtitle": "Beschrijf uw project en ontvang binnen 48u een gratis offerte.",
+    "form": {
+      "name": "Volledige naam",
+      "namePlaceholder": "Jan Janssen",
+      "email": "E-mailadres",
+      "emailPlaceholder": "jan@voorbeeld.be",
+      "phone": "Telefoon",
+      "phonePlaceholder": "+32 4 00 00 00 00",
+      "service": "Betrokken dienst",
+      "servicePlaceholder": "Selecteer een dienst",
+      "message": "Uw bericht",
+      "messagePlaceholder": "Beschrijf uw project, uw behoeften, uw vragen...",
+      "submit": "Mijn aanvraag versturen",
+      "submitting": "Bezig met verzenden..."
+    },
+    "info": {
+      "title": "Onze contactgegevens",
+      "phone": "Telefoon",
+      "email": "E-mail",
+      "hours": "Openingstijden",
+      "hoursValue": "Ma – Za : 8u00 – 18u00",
+      "address": "Adres",
+      "addressValue": "Rue des Bons Enfants 19, 1120 Brussel"
+    }
+  },
+  "footer": {
+    "tagline": "Maatoplossingen voor moderne en functionele ruimtes.",
+    "nav": "Navigatie",
+    "services": "Diensten",
+    "contact": "Contact",
+    "copyright": "© {{year}} Wiali Rénovation. Alle rechten voorbehouden.",
+    "legal": "Wettelijke vermeldingen"
+  }
+}
